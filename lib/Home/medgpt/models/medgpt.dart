@@ -1,0 +1,5 @@
+
+class Medgpt{
+  String? apiUrl;
+  
+}
