@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582449449529",
+    "project_id": "medgpt-a467d",
+    "storage_bucket": "medgpt-a467d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582449449529:android:378c79b8e42c7477bd5be8",
+        "android_client_info": {
+          "package_name": "com.example.medgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsEd1ndWsp-xSnby9mLqTv-H2iCcGVCkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

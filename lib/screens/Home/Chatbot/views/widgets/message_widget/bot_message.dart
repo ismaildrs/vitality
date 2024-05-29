@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medgpt/Home/utils/constants.dart';
+import 'package:medgpt/utils/constants.dart';
 
 class BotMessage extends StatelessWidget {
   final String message;
@@ -12,17 +12,25 @@ class BotMessage extends StatelessWidget {
     return Align(
       alignment: Alignment.centerLeft,
       child: Padding(
-        padding: EdgeInsets.only(left: widthOfDevice*0.02, right: widthOfDevice*0.10, top: 5),
+        padding: EdgeInsets.only(
+            left: widthOfDevice * 0.02, right: widthOfDevice * 0.10, top: 5),
         child: Container(
-          decoration: BoxDecoration(color: Color(Constants.lightGreyTheme), borderRadius: BorderRadius.all(Radius.circular(30))),
+          decoration: BoxDecoration(
+              color: Color(Constants.lightGreyTheme),
+              borderRadius: BorderRadius.all(Radius.circular(30))),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-              Text(message, style: const TextStyle(fontSize: 17),),
-              Text(formattedDate, textAlign: TextAlign.right, style: TextStyle(fontSize: 10)),
-             ],),
+                Text(
+                  message,
+                  style: const TextStyle(fontSize: 17),
+                ),
+                Text(formattedDate,
+                    textAlign: TextAlign.right, style: TextStyle(fontSize: 10)),
+              ],
+            ),
           ),
         ),
       ),
