@@ -73,14 +73,6 @@ The application follows the MVC architecture:
 - [Firebase](https://firebase.google.com/)
 - [Gemini LLM](https://gemini.com/)
 
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 - **Author:** Ismail Drissi
